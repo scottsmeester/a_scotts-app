@@ -1,0 +1,19 @@
+{
+  "name": "a_scotts-app",
+  "version": "1.0.0",
+  "description": "As a user I want to be able to see my CE objects and pick the objects I want to study.",
+  "main": "index.js",
+  "scripts": {
+    "test": "debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottsmeester/a_scotts-app.git"
+  },
+  "author": "Scott Smeester",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottsmeester/a_scotts-app/issues"
+  },
+  "homepage": "https://github.com/scottsmeester/a_scotts-app#readme"
+}
