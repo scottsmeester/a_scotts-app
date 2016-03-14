@@ -1,0 +1,28 @@
+{
+  "name": "a_scotts-app",
+  "version": "0.0.1",
+  "homepage": "https://github.com/scottsmeester/a_scotts-app",
+  "authors": [
+    "Scott Smeester <scott@smeester.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests",
+    "/app/bower_components"
+  ],
+  "description": "",
+  "main": "app/index.js",
+  "moduleType": [],
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-animate": "^1.5.0",
+    "angular-route": "^1.5.0",
+    "jquery": "^2.2.1",
+    "animate.css": "^3.5.1",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "fontawesome#^4.5.0"
+  }
+}
