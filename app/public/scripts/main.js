@@ -12,12 +12,20 @@
       // routes
       $routeProvider
         .when("/", {
-          templateUrl: "./partials/partial1.html",
+          // templateUrl: "/index",
           controller: "MainController"
         })
         .otherwise({
            redirectTo: '/'
         });
+      // $routeProvider
+      //   .when("/smeester", {
+      //     templateUrl: "./views/trackIt",
+      //     controller: "MainController"
+      //   })
+      //   .otherwise({
+      //      redirectTo: '/'
+      //   });
     }
   ]);
 

@@ -1,0 +1,31 @@
+doctype html
+html(lang='en', ng-app='SmeestersRepo')
+  head(lang='en')
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Smeester's Repo
+    meta(name='description', content="Smeester's Repo")
+    meta(name='author', content='Scott Smeester')
+    // styles
+    link(rel='stylesheet', href='bower_components/bootstrap/dist/css/bootstrap.css')
+    link(rel='stylesheet', href='bower_components/font-awesome/css/font-awesome.css')
+    link(rel='stylesheet', href='bower_components/animate.css/animate.css')
+    link(rel='stylesheet', href='public/css/main.css')
+    //if lt IE 9
+      script(src='http://html5shiv.googlecode.com/svn/trunk/html5.js')
+  body
+    .container
+
+      h1 Hello!
+      // views
+      div(ng-view='', ng-controller='MainController as MainCtrl')
+        
+      block content
+    block foot-scripts
+    // scripts
+    script(src='bower_components/jquery/dist/jquery.js')
+    script(src='bower_components/angular/angular.js')
+    script(src='bower_components/angular-route/angular-route.js')
+    script(src='bower_components/angular-animate/angular-animate.js')
+    script(src='bower_components/bootstrap/dist/js/bootstrap.js')
+    script(src='public/scripts/main.js')
